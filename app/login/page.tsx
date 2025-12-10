@@ -57,7 +57,7 @@ const HomePage: React.FC<HomeProps> = () => {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="********"
+              placeholder="Ingresa tu contraseña"
               required
               className="w-full px-4 py-2 border border-gray-300 rounded-lg text-gray-700"
             />

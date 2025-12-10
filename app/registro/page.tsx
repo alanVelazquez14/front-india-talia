@@ -6,22 +6,28 @@ interface RegisterPageProps {}
 const inputs = [
   {
     id: "nombre",
-    label: "Nombre Completo",
+    label: "Nombre",
     type: "text",
     placeholder: "Tu nombre",
+  },
+  {
+    id: "apellido",
+    label: "Apellido",
+    type: "text",
+    placeholder: "Tu apellido",
   },
   { id: "email", label: "Email", type: "email", placeholder: "tu@email.com" },
   {
     id: "password",
     label: "Contraseña",
     type: "password",
-    placeholder: "********",
+    placeholder: "Ingresa tu contraseña",
   },
   {
     id: "confirmPassword",
     label: "Confirmar Contraseña",
     type: "password",
-    placeholder: "********",
+    placeholder: "Confirma tu contraseña",
   },
 ];
 
