@@ -31,8 +31,6 @@ const metricCards = [
     color: "text-gray-800" 
   },
 ];
-
-// Datos simulados para las tarjetas de acciones rápidas
 const quickActions = [
   { 
     name: "Crear Pedido", 
@@ -43,7 +41,7 @@ const quickActions = [
   },
   { 
     name: "Registrar Compra", 
-    Icon: ShoppingBag, // Usando ShoppingBag como aproximación
+    Icon: ShoppingBag,
     color: "text-yellow-600", 
     bgColor: "bg-yellow-100", 
     action: () => console.log('Registrar Compra') 
