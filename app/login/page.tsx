@@ -1,9 +1,11 @@
 "use client";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 interface HomeProps {}
 
 const HomePage: React.FC<HomeProps> = () => {
+  const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -13,6 +15,8 @@ const HomePage: React.FC<HomeProps> = () => {
     alert(
       `Intentando iniciar sesión:\nEmail: ${email}\nContraseña: ${password}`
     );
+
+    router.push("/dashboard");
   };
 
   return (
